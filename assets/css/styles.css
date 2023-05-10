@@ -1230,25 +1230,92 @@ img {
     height: 8px;
  }
 
- /* .menu-two .menu-item {
-  padding: 1.5rem;
-  padding-top: 6rem;
-  margin-top: 6rem;
-  border-radius: 1rem;
+ .reservation-form-group {
+    grid-template-columns: 1fr;
  }
 
- .menu-two .menu-img-wrapper {
-  left: 1.5rem;
-  transform: translateX(0);
+ .gallery-container {
+   grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
  }
 
- .menu-two .menu-img-wrapper::before {
-   all: unset;
+ .scrollup {
+    width: 50px;
+    height: 50px;
+    border-width: 4px;
  }
-} */
+
+ .scrollup-icon {
+    font-size: 1.5rem;
+ }
+} 
 
 @media screen and (max-width: 576px) {
+  .nav {
+    height: calc(var(--header-height)  + .5rem);
+  }
+
+  .nav-menu {
+    width: 100%;
+    padding-inline: 2rem
+  }
+
+  .home {
+    padding-block: 9rem 2.5rem;
+  }
+
+  :root {
+    --biggest-font-size: 2.5rem;
+    --biggest-kings-font-size: 2rem;
+    --bigger-font-size: 2rem;
+    --h1-font-size: 1.75rem;
+    }
+
+    .services-img-wrapper {
+      width: 120px;
+      height: 120px;
+    }
+
+    .services-img {
+      width: 60px;
+    }
+
+    .tab-btn::before {
+      width: 12px;
+      height: 12px
+    }
+
+    .quality-list {
+      grid-template-columns: 1fr;
+      row-gap: 1.25rem;
+    }
+
+    .rservation-icon-wrapper {
+      width: 60px;
+      height: 60px; 
+    }
+
+    .reservation-icon {
+      width: 30px;
+    }
 }
 
 @media screen and (max-width: 450px) {
+
+  .about-top {
+    inset: 1rem;
+  }
+
+  .about-hover {
+    padding-inline: 1.5rem;
+  }
+
+  .tab-item,
+  .tab-btn {
+    padding: 1.75rem;
+  }
+
+  .gallery-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
