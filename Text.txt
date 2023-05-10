@@ -1,0 +1,15 @@
+========== HOME ==========
+.home__subtitle
+Fastest Delivery & Easy Pickup
+
+.home__title
+Kings Burger
+Delicious Food
+Food Platter
+Garlic Pizza
+
+.home__description
+Good food starts with good ingridients. We only bring you the best.  
+
+.button
+View Our Menu
