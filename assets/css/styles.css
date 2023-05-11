@@ -790,8 +790,12 @@ img {
   border-radius: 0.5rem;
    box-shadow:  20px 20px 60px #bebebe,
   -20px -20px 60px #ffffff;
+ transition: 0.3s ease-in-out;
 }
 
+.reservation-form-input:hover {
+  transform: scale(1.03);
+}
 
 .reservation-button {
   margin-top: 1.25rem;
@@ -1302,12 +1306,8 @@ img {
 
 @media screen and (max-width: 450px) {
 
-  .about-top {
-    inset: 1rem;
-  }
-
-  .about-hover {
-    padding-inline: 1.5rem;
+  .about {
+    display: none;
   }
 
   .tab-item,
