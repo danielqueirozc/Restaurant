@@ -535,7 +535,6 @@ img {
 
 .opening-list dd {
   text-align: right;
-  margin-bottom: 1rem;
 }
 
 .opening-data {
@@ -563,7 +562,6 @@ img {
 
 .services .section-container {
   align-items: center;
-
 }
 
 .services-container {
@@ -596,7 +594,7 @@ img {
   cursor: pointer;
   trasition: all 0.3s;
 }
-
+ 
 .services-title:hover {
   color: var(--second-color);
 }
