@@ -43,7 +43,6 @@ input, button, body {
 }
 
 body {
-  background-color: black;
   color: var(--text-color);
   margin: 0 auto;
 }
