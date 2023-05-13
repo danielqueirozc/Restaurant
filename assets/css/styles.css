@@ -1215,6 +1215,10 @@ img {
     --biggest-kings-font-size: 2.5rem;
 }
 
+.about {
+  display: none;
+}
+
 .section {
   padding-block: 6rem;
 }
